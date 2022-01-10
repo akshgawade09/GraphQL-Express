@@ -1,0 +1,24 @@
+{
+  "name": "graphql-express",
+  "version": "1.0.0",
+  "description": "GraphQL assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Akshay Gawade",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0",
+    "graphql-compose": "^9.0.6",
+    "graphql-compose-elasticsearch": "^5.0.1",
+    "graphql-tools": "^8.2.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}
